@@ -8,10 +8,12 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
          <style>
-            body{
-                /* width: 100%;
-                padding: 0px;
-                margin: 0px; */
+            .body_style{
+                 /*width: 100%;
+                padding: 50px;
+                margin: 5px;*/
+                background-color: rgb(3, 2, 24);
+                
             }
             .background-display {
             border: 10px black;
@@ -49,8 +51,8 @@
               background-color:brown;
             }
             .bg-dark {
-          background-color: #384c61!important;
-          color: blanchedalmond;
+                background-color: #384c61!important;
+                color: blanchedalmond;
           } 
    
           .nav-link {
@@ -59,11 +61,29 @@
           .navbar-brand{
             color: blanchedalmond!important;
           }
+          #about_me{
             
+            text-align:center;
+            
+            font-size: 20px;
+            background: rgb(24, 13, 63);
+            color:blanchedalmond;
+            margin: 30px;
+            padding: 50px;
+            background-image:url("night-sky.jpg");
+            background-repeat: no-repeat;
+            box-shadow: 2px 4px 4px 8px rgb(92, 89, 89);
+            }
+          #about_me:hover{
+            background: rgb(24, 13, 63);
+            opacity: 0.9;
+                        
+          }
+
         </style>
         
     </head>
-    <body>
+    <body class="body_style">
       <div class="background-display">
         <h1 id="myname" style="align: center;"><img src="ingenuity-kv-digital-twin.jpg" height=150px width=500px top=0px style="align: center;margin-right:auto" >Sarvagya Agrawal</h1>
         
@@ -81,24 +101,24 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about_me">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">News</a>
+              <a class="nav-link" href="#news">News</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
+                Machine Learning
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Machine Learning</a>
-                <a class="dropdown-item" href="#">Data Science</a>
+                <a class="dropdown-item" href="#">Linear Regression</a>
+                <a class="dropdown-item" href="#">Supervised Learning</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="flase">Connect With Me</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -151,5 +171,28 @@
         </a>
       </div>
     </div>
+
+    <!---End of Carosuel-->
+
+    <!--Scrollspy-->
+    <div data-bs-spy="scroll" data-bs-target="#navbar navbar-expand-lg navbar-light bg-dark" data-bs-offset="20" tabindex="20">
+      <div id="about_me">
+        <h4 align="center">About Me</h4>
+        <p align="center">I'm Sarvagya Agrawal, an undergraduate student pursuing B.Tech. from Netaji Subhas University of Technology, Delhi.
+            I've interest in Machine Learning and web development. I'm learning Machine Learning algorithms and concepts. I'm always interested in taking variety of tasks and challenges. I also like to innovate which I believe is important to bring change in the society. I enjoy taking up different roles so as to learn different things since there are no limits of gaining knowledge. Apart from these, I like to be mentor so as to share my knowledge and experiences with those who need it but could not grab it due to many reasons.
+        </p>
+    
+      </div>
+      <!--<h4 id="mdo"></h4>
+      <p>...</p>
+      
+      <h4 id="two">two</h4>
+      <p>...</p>
+      <h4 id="three">three</h4>
+      <p>...</p>-->
+    </div>
+
+    <!--end of scrollspy-->
+    <marquee bgcolor="slategrey" style="border:black 3px solid" direction="left" font style="bold" scrolldelay="100"><font size="5" face="Arial"><font color="#FFF033">This Website is under maintainenece</marquee>
     </body>
 </html>
