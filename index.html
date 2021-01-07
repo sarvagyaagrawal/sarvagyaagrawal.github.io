@@ -85,12 +85,29 @@
             background-color: rgb(210, 238, 87);
           }
 
+          #img_my{
+            border-radius: 100%;
+            width: 200px;
+            height: 150px;
+          }
+        .details{
+            
+            vertical-align: middle;
+            display: block;
+            
+        }
+        #myimage{
+            
+            
+            display: inline-block;
+          }
+          
         </style>
         
     </head>
     <body class="body_style">
       <div class="background-display">
-        <h1 id="myname" style="align: center;"><img src="ingenuity-kv-digital-twin.jpg" height=150px width=500px top=0px style="align: center;margin-right:auto" >Sarvagya Agrawal</h1>
+        <h1 id="myname" style="align: center;"><img src="ingenuity-kv-digital-twin.jpg" height=150px width=500px top=0px style="align: center; margin-right:auto;" >Sarvagya Agrawal</h1>
         
     </div class="navigation">
         <!-- NAVIGATION BAR -->
@@ -182,10 +199,19 @@
     <!--Scrollspy-->
     <div data-bs-spy="scroll" data-bs-target="#navbar navbar-expand-lg navbar-light bg-dark" data-bs-offset="20" tabindex="20">
       <div id="about_me">
-        <h4 align="center">About Me</h4>
-        <p align="center">I'm Sarvagya Agrawal, an undergraduate student pursuing B.Tech. from Netaji Subhas University of Technology, Delhi.
-            I've interest in Machine Learning and web development. I'm learning Machine Learning algorithms and concepts. I'm always interested in taking variety of tasks and challenges. I also like to innovate which I believe is important to bring change in the society. I enjoy taking up different roles so as to learn different things since there are no limits of gaining knowledge. Apart from these, I like to be mentor so as to share my knowledge and experiences with those who need it but could not grab it due to many reasons.
-        </p>
+        
+        <div class="details">
+          <div id="myimage">
+            <img id="img_my"  src="IMG_1571.jpg">
+          </div>
+          <h2 align="center">About Me </h2>
+            <p align="center">I'm Sarvagya Agrawal, an undergraduate student pursuing B.Tech. from Netaji Subhas University of Technology, Delhi.
+                I've interest in Machine Learning and web development. I'm learning Machine Learning algorithms and concepts. I'm always interested in taking variety of tasks and challenges. I also like to innovate which I believe is important to bring change in the society. I enjoy taking up different roles so as to learn different things since there are no limits of gaining knowledge. Apart from these, I like to be mentor so as to share my knowledge and experiences with those who need it but could not grab it due to many reasons.
+                
+              </p>
+        
+        </div>
+        
     
       </div>
       <!--<h4 id="mdo"></h4>
