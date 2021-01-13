@@ -14,7 +14,7 @@
                  /*width: 100%;
                 padding: 50px;
                 margin: 5px;*/
-                background-color: rgb(3, 2, 24);
+                background-color: rgb(13, 6, 46);
                 
             }
             .background-display {
@@ -99,20 +99,32 @@
             
         }
         #myimage{
-            
-            
             display: inline-block;
           }
-          
-        
+        #time_img{
+          width: 300px;
+            height: 200px;
+            float: left ;
+        }
+        #time_txt:hover{
+          color: brown;
+        }
+       .time{
+            margin: 30px;
+            padding: 50px;
+       }
+       .time:hover{
+        box-shadow: 2px 4px 4px 8px rgb(235, 98, 98);
+            
+       }
         </style>
         
     </head>
     <body class="body_style">
       <div class="background-display">
         <h1 id="myname" style="align: center;"><img src="ingenuity-kv-digital-twin.jpg" height=150px width=500px top=0px style="align: center; margin-right:auto;" >Sarvagya Agrawal</h1>
-        
-    </div class="navigation">
+       </div> 
+    <div class="navigation">
         <!-- NAVIGATION BAR -->
       <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-dark" >
         
@@ -244,7 +256,7 @@
           <img src="badminton.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Hobbies</h5>
-            <p class="card-text">Badminton, Table Tennis, Reading Books, Painting, exploring unexplored areas </p>
+            <p class="card-text" style="font-size: 130%;">Badminton, Table Tennis, Reading Books, Painting, exploring unexplored areas </p>
           </div>
         </div>
       </div>
@@ -253,7 +265,7 @@
           <img src="innovation.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Interests</h5>
-           <P class="card-text">
+           <P class="card-text" style="font-size: 130%;">
              New programming languages and algorithms, Innovating new things, exploring more about the Life Sciences           
           </p>
           </div>
@@ -264,7 +276,7 @@
           <img src="machine.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Technical Skills</h5>
-            <p class="card-text">Machine Learning algorithms, Data Structure and Algorithms, Web Development</p>
+            <p class="card-text" style="font-size: 130%;">Machine Learning algorithms, Data Structure and Algorithms, Web Development</p>
           </div>
         </div>
       </div>
@@ -273,14 +285,27 @@
           <img src="programming.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Programming Languages</h5>
-            <p class="card-text">C, C++, Python, R, CSS, HTML</p>
+            <p class="card-text" style="font-size: 130%;">C, C++, Python, R, CSS, HTML, Django</p>
           </div>
         </div>
       </div>
     </div>
 
     <!--cards end here-->
-     
+
+    <!--how do I spend my time-->
+    <div class="time" style="background-color: #ffffff;">
+      <img id="time_img" src="cartoon.jpg"><h2 style="color:rgb(167, 194, 13); text-align: center;">How Do I Spend my Time??</h2>
+      <p id="time_txt" style="font-size: 130%;">
+        I keep my self busy in doing research about different interesting things involved in Life Sciences. For example, how mutations takes place in DNA and about viruses , bacteria,etc.
+        Apart from that, I take some time out of my schedule to learn web development which I really like. The most interesting thing for me is to learn machine learning algorithms and implemtn them on different datasets.
+        I also spend my time in doing some yoga and running, which gives me mental and physical strength.
+      </p>
+      
+    </div>
+    <!--how do I spend my time ENDS HERE--> 
+
+
     <marquee bgcolor="slategrey" style="border:black 3px solid" direction="left" font style="bold" scrolldelay="100"><font size="5" face="Arial"><font color="#FFF033">This Website is under maintainenece</marquee>
     </body>
 </html>
