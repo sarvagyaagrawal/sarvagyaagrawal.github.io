@@ -75,16 +75,18 @@
             background-image:url("night-sky.jpg");
             background-repeat: repeat;
             box-shadow: 2px 4px 4px 8px rgb(92, 89, 89);
+            
             }
           #about_me:hover{
             background: rgb(24, 13, 63);
             opacity: 0.9;
-                        
+                      
           }
 
           .card:hover{
             box-shadow: 2px 4px 4px 8px rgb(92, 89, 89);
             background-color: rgb(210, 238, 87);
+            
           }
 
           #img_my{
@@ -100,6 +102,7 @@
         }
         #myimage{
             display: inline-block;
+            
           }
         #time_img{
           width: 300px;
@@ -122,6 +125,16 @@
             padding: 50px;
             width: 300px;
             height: 200px;
+            
+             
+       }
+       
+       #connect_head{
+        transition: width 2s, height 2s, transform 2s;
+       
+      }
+       #connect_head:hover{
+        transform: rotate(360deg);
        }
         </style>
         
@@ -149,7 +162,7 @@
             <li class="nav-item">
               <a class="nav-link" href="News.html">My Certifications</a>
             </li>
-            <!--
+           
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Machine Learning
@@ -161,7 +174,6 @@
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
             </li>
-            -->
             <li class="nav-item">
               <a class="nav-link" href="#connect" >Connect With Me</a>
             </li>
@@ -314,8 +326,8 @@
     <!--how do I spend my time ENDS HERE--> 
 
     <!--CONNECT WITH ME-->
-    <div id="connect">
-      <h2 style="background-color: rgb(241, 229, 48);color: rgb(35, 18, 131); font-family: cursive;" align="center">CONNECT WITH ME</h2>
+    <div id="connect" >
+      <h2 id="connect_head" style="background-color: rgb(241, 229, 48);color: rgb(35, 18, 131); font-family: cursive;" align="center">CONNECT WITH ME</h2>
       <a href="https://twitter.com/sarvagyaagrawal"><img id="icon" style="width: 200px; border-radius: 80%;" src="twitter.png"></a><a href="https://github.com/sarvagyaagrawal"><img id="icon" src="github.jpg"></a><a href="https://www.linkedin.com/in/sarvagya-agrawal-17305154"><img id="icon" style="width: 200px; border-radius: 40%;" src="linkedin.png" alt="LinkedIn"></a>><a href="https://www.facebook.com/sarvagya.agrawal.1/"><img id="icon" style="width: 200px; border-radius: 40%;" src="facebook.png"></a>
     </div>
 
