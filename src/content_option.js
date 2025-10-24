@@ -33,7 +33,7 @@ const worktimeline = [{
     {
         jobtitle: "CVSPK Scholarship Awardee (Top 5%)",
         where: "Netaji Subhas University of Technology (NSUT)",
-        date: "2020, 2022, 2023",
+        date: "2019, 2021, 2022",
     },
 ];
 
