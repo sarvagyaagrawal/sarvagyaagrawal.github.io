@@ -12,7 +12,7 @@ const introdata = {
         third:"Building solutions for tomorrow",
     },
     description: "Software Engineer, currently working at American Express.",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url: "./assets/images/sarvagya-logo.jpg",
 };
 
 const dataabout = {
