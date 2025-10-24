@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.c8ee8686.css",
-    "main.js": "/static/js/main.4430548a.js",
-    "static/media/sarvagya-logo.jpg": "/static/media/sarvagya-logo.e2d5924d99aa68d4de8c.jpg",
+    "main.js": "/static/js/main.2629ed58.js",
+    "static/media/sarvagya-logo.jpg": "/static/media/sarvagya-logo.fcd0c241ce5fc277a813.jpg",
     "index.html": "/index.html"
   },
   "entrypoints": [
     "static/css/main.c8ee8686.css",
-    "static/js/main.4430548a.js"
+    "static/js/main.2629ed58.js"
   ]
 }
