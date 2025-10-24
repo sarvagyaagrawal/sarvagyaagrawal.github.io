@@ -44,10 +44,12 @@ const skills = [{
     },
     {
         name: "Author",
+        description: "Authored 30+ technical articles on AI, ML, NLP, Data Science and Program Management",
         value: 100,
     },
     {
         name: "Speaker",
+        description: "Presented worksops and sessions at various platforms & summits like Global Data AI Aummit by AmEx, Datahour Series by Analytics Vidhya, Google's Explore ML programme etc.",
         value: 100,
     }
 ];
@@ -141,9 +143,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/sarvagyaagrawal",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/sarvagyaagrawal/",
     twitter: "https://twitter.com",
 };
 export {
