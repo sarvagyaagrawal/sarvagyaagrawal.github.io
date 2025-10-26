@@ -22,7 +22,7 @@ export const ContactUs = () => {
     setFormdata({ loading: true });
 
     const templateParams = {
-      // from_name: formData.email,
+      to_email: formData.email,
       name: formData.name,
       // to_name: contactConfig.YOUR_EMAIL,
       message: formData.message,

@@ -49,23 +49,35 @@ const skills = [{
     },
     {
         name: "Speaker",
-        description: "Presented worksops and sessions at various platforms & summits like Global Data AI Aummit by AmEx, Datahour Series by Analytics Vidhya, Google's Explore ML programme etc.",
+        description: "Presented workshops and sessions at various platforms & summits like Global Data AI Summit by AmEx, Datahour Series by Analytics Vidhya, Google's Explore ML programme etc.",
         value: 100,
     }
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Agentic AI Solutions",
+        description: "Researched and developed autonomous AI agents that perform complex tasks with minimal human intervention.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Natural Language Processing",
+        description: "Specialized in NLP techniques to build applications like chatbots, search engines including RAG, and language models.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Computer Vision",
+        description: "Developed computer vision applications for image and video analysis including facial recognition, biomedical images for healthcare",
     },
+    {
+        title: "Backend Development",
+        description: "Proficient in building robust backend systems using Python/ JAVA, and database management with SQL and NoSQL databasee like Elastic Search.",
+    },
+    {
+        title: "Frontend Development",
+        description: "Experienced in creating responsive and user-friendly web interfaces using React.js. Built interactive dashboards for application health monitoring, text editors, chatbot interfaces.",
+    },
+    {
+        title: "UI/UX Design",
+        description: "Skilled in designing intuitive user interfaces and enhancing user experience through thoughtful design principles.",
+    }
 ];
 
 const dataportfolio = [{
